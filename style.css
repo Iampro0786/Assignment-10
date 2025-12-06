@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: rgb(234, 55, 73);
+}
+.box-px{
+    width: 200px;
+    height: 150px;
+    background-color: lightseagreen;
+    margin: 30px;
+}
+.box-percent{
+    width: 26.6%;
+    height: 150px;
+    background-color: aqua;
+    margin: 30px;
+}
+.parent{
+    font-size: 20px;
+}
+.text-em{
+    font-size: 1.5em;
+    color: rgb(114, 89, 239);
+}
+.text-rem{
+    font-size: 2rem;
+    color: rgb(239, 89, 196);
+}
+.viewport-box{
+    width: 50vw;
+    height: 30vh;
+    background-color: peachpuff;
+}
+.viewport-title{
+    font-size: 5vmin;
+    text-align: center;
+    margin-top: 3vmax;
+    color:  rgb(114, 89, 239)
+}
+.limit-box{
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    background-color: lightskyblue
+}
+.ch-text{
+    width: 50ch;
+    font-size: 16px;
+    background-color: #dc3b3b;
+    padding: 10px;
+}
